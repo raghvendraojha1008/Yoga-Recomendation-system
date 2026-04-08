@@ -1,0 +1,29 @@
+{
+    "pose_image_mapping": {
+        "Padachakrasana": "Bridge-Pose",
+        "Bhujangasana": "Cobra-Pose",
+        "Adho Mukha Svanasana": "Downward-Dog-Pose",
+        "Sukhasana": "Standing-Mountain-Pose",
+        "Padmasana": "Standing-Mountain-Pose",
+        "Siddhasana": "Standing-Mountain-Pose",
+        "Swastikasana": "Standing-Mountain-Pose",
+        "Udarakarshanasana": "Bridge-Pose",
+        "Goolf Ghooman": "Ankle-Crank",
+        "Balasana": "Child-Pose",
+        "Tadasana": "Standing-Mountain-Pose",
+        "Vrikshasana": "Tree-Pose",
+        "Malasana": "Garland-Pose"
+    },
+    "target_area_mapping": {
+        "0": "Toes & Feet", "1": "Ankles", "2": "Calves", "3": "Knees",
+        "4": "Thighs", "5": "Hips", "6": "Pelvis", "7": "Lower Back",
+        "8": "Middle Back", "9": "Upper Back", "10": "Shoulders", "11": "Neck",
+        "12": "Arms", "13": "Elbows", "14": "Wrists", "15": "Hands",
+        "16": "Abdomen & Digestion", "17": "Core & Balance", "18": "Hips & Abdominals",
+        "19": "Chest & Lungs", "20": "Hips & Spine (Meditation Prep)",
+        "21": "Hips & Lower Back", "22": "Joints & Circulation", "23": "Nervous System",
+        "24": "Brain & Focus", "25": "Endocrine System", "26": "Immune System",
+        "27": "Reproductive System", "28": "Excretory System", "29": "Legs & Thighs",
+        "30": "Spine Alignment", "31": "Full Body Relaxation"
+    }
+}
