@@ -59,8 +59,8 @@ target_map = metadata.get('target_area_mapping', {})
 @st.cache_data
 def load_data():
     # Update these paths to match your local setup
-    u_path = "C:\\Users\\ragha\\OneDrive\\Desktop\\yoga recommendation\\Kaggle Health & Lifestyle Dataset\\health_lifestyle_dataset.csv"
-    y_path = "C:\\Users\\ragha\\OneDrive\\Desktop\\yoga recommendation\\Kaggle Yoga Poses Recommendation\\Yoga Data.xlsx"
+    u_path = "health_lifestyle_dataset.csv"
+    y_path = "Yoga Data.xlsx"
     df_u = pd.read_csv(u_path)
     df_y = pd.read_excel(y_path)
     text_cols = ['Benefits', 'Targeted Mental Problems', 'Targeted Physical Problems']
@@ -77,7 +77,7 @@ tfidf_matrix = tfidf.fit_transform(df_yoga['tags'])
 
 # --- HELPERS ---
 def get_image(asana_name):
-    base_path = r"C:\Users\ragha\OneDrive\Desktop\yoga recommendation\Kaggle Yoga Pose Classification"
+    base_path = r""
     search_term = pose_map.get(asana_name, asana_name)
     try:
         all_folders = [f for f in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, f))]
